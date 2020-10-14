@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsBasicContent_Calculato
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsBasicContent_AdvancedCalculator", "FormsBasicContent_AdvancedCalculator\FormsBasicContent_AdvancedCalculator.csproj", "{198716B8-E011-45F5-8C05-EA836FF65D32}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsBasicContent_AdvancedListCalculator", "FormsBasicContent_AdvancedListCalculator\FormsBasicContent_AdvancedListCalculator.csproj", "{45ABFA0D-2F3D-4FC3-9CFD-A60D3FDB6BC4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{198716B8-E011-45F5-8C05-EA836FF65D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{198716B8-E011-45F5-8C05-EA836FF65D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{198716B8-E011-45F5-8C05-EA836FF65D32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{45ABFA0D-2F3D-4FC3-9CFD-A60D3FDB6BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{45ABFA0D-2F3D-4FC3-9CFD-A60D3FDB6BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{45ABFA0D-2F3D-4FC3-9CFD-A60D3FDB6BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{45ABFA0D-2F3D-4FC3-9CFD-A60D3FDB6BC4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
