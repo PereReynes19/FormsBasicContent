@@ -21,5 +21,52 @@ namespace FormsBasicContent_AdvancedCalculator
         {
 
         }
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            if (textBox4.Text == "+")
+            {
+                double operator1 = double.Parse(textBox1.Text);
+                double operator2 = double.Parse(textBox2.Text);
+                textBox3.Text = (operator1 + operator2).ToString();
+            }
+
+            if (textBox4.Text == "-")
+            {
+                double operator1 = double.Parse(textBox1.Text);
+                double operator2 = double.Parse(textBox2.Text);
+                textBox3.Text = (operator1 - operator2).ToString();
+            }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            textBox4.Text = "+";
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            textBox4.Text = "-";
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            textBox1.Text = " ";
+            textBox2.Text = " ";
+            textBox3.Text = " ";
+            textBox4.Text = " ";
+        }
     }
 }
