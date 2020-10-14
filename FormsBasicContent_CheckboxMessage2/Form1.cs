@@ -27,7 +27,6 @@ namespace FormsBasicContent_CheckboxMessage2
             {
                 MessageBox.Show("Is not checked");
             }
-            
         }
     }
 }
