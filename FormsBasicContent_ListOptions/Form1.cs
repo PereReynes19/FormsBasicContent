@@ -16,5 +16,30 @@ namespace FormsBasicContent_ListOptions
         {
             InitializeComponent();
         }
+
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboBox1.SelectedItem == "Yellow")
+            {
+                textBox1.Text = "The chosen colour is: Yellow";
+            }
+            if (comboBox1.SelectedItem == "Green")
+            {
+                textBox1.Text = "The chosen colour is: Green";
+            }
+            if (comboBox1.SelectedItem == "Blue")
+            {
+                textBox1.Text = "The chosen colour is: Blue";
+            }
+            if (comboBox1.SelectedItem == "Red")
+            {
+                textBox1.Text = "The chosen colour is: Red";
+            }
+            if (comboBox1.SelectedItem == "Orange")
+            {
+                textBox1.Text = "The chosen colour is: Orange";
+            }
+           
+        }
     }
 }

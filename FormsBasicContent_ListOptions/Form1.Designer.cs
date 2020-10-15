@@ -43,11 +43,12 @@
             "Blue",
             "Red",
             "Orange"});
-            this.comboBox1.Location = new System.Drawing.Point(206, 132);
+            this.comboBox1.Location = new System.Drawing.Point(213, 133);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(164, 21);
             this.comboBox1.TabIndex = 0;
             this.comboBox1.Text = "Choose One";
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // textBox1
             // 
