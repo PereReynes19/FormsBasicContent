@@ -52,6 +52,7 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "Blue";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -63,6 +64,7 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "Yellow";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton3
             // 
@@ -74,6 +76,7 @@
             this.radioButton3.TabStop = true;
             this.radioButton3.Text = "Red";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // Form1
             // 

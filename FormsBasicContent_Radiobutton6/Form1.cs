@@ -16,5 +16,20 @@ namespace FormsBasicContent_Radiobutton6
         {
             InitializeComponent();
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox1.Text = "Chosen colour: Blue";
+        }
+
+        private void radioButton2_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox1.Text = "Chosen colour: Yellow";
+        }
+
+        private void radioButton3_CheckedChanged(object sender, EventArgs e)
+        {
+            textBox1.Text = "Chosen colour: Red";
+        }
     }
 }
