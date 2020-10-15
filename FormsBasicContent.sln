@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsBasicContent_Checkbox5
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsBasicContent_Radiobutton6", "FormsBasicContent_Radiobutton6\FormsBasicContent_Radiobutton6.csproj", "{133C48B9-D6C2-4CFA-99C9-54BB1128FFE9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormsBasicContent_ListOptions", "FormsBasicContent_ListOptions\FormsBasicContent_ListOptions.csproj", "{C53FB5FF-B52F-45F6-B39E-46CD30961C53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{133C48B9-D6C2-4CFA-99C9-54BB1128FFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{133C48B9-D6C2-4CFA-99C9-54BB1128FFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{133C48B9-D6C2-4CFA-99C9-54BB1128FFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C53FB5FF-B52F-45F6-B39E-46CD30961C53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C53FB5FF-B52F-45F6-B39E-46CD30961C53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C53FB5FF-B52F-45F6-B39E-46CD30961C53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C53FB5FF-B52F-45F6-B39E-46CD30961C53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
